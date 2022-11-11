@@ -1,0 +1,214 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #396876;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#img{
+    text-align: center;
+    max-height: 350px;
+    max-width: 100%;
+}
+
+.imgAtendimento {
+    width: 100%; /* width of container */
+     min-height: 300px;/* height of container */
+    object-fit: cover;
+    object-position: 10% 10%;
+}
+.imgContato {
+    width: 100%; /* width of container */
+     min-height: 350px;/* height of container */
+    object-fit: cover;
+    object-position: 10% 55%;
+}
+.imgSobre {
+    width: 100%; /* width of container */
+    min-height: 350px;/* height of container */
+    object-fit: cover;
+    object-position: 10% 25%;
+}
+.imgInicial {
+    width: 100%; /* width of container */
+    min-height: 350px;/* height of container */
+    object-fit: cover;
+    object-position: 10% 10%;
+    
+}
+.embrulho {
+    display: flex;
+    margin: 0 auto;
+    max-width: 75%;
+    height: 95vh;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    box-shadow: 5px 5px 25px;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 100%;
+
+}
+header {
+    height: 30vh;
+}
+.menu {
+    margin: 0%;
+    width: 15%;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 75px;
+    
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    cursor:pointer;
+  }
+  
+  a:link:active, a:visited:active {
+    color:red;
+  }
+
+.menu > h1 {
+    color: aliceblue;
+    background-color: #3C6D7C;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+#linkMenu {
+    padding-right: 1rem;
+    color: black;
+}
+#linkMenu li:hover h3 {
+    background-color: #396876c8;
+    border-radius: 2px;
+}
+
+#section {
+    background-color: aliceblue;
+    height: 60vh;
+
+}
+section > h1 {
+    min-height: 50px;
+    text-align: center;
+    background-color: #3c6d7c;
+    color: aliceblue;
+    margin: auto;
+    padding: 5px;
+}
+section p {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#itemsWrapper {
+    display: flex;
+    min-height: 100%;
+    margin: auto;
+    max-height: 250px;
+    width: 100%;
+    
+}
+.items {
+    margin: 0px 10px 0px 10px;
+    max-height: 250px;
+    border-radius: 2px;
+    padding: 0;
+}
+.items>img {
+    padding: 0;
+    max-width: 100%;
+    max-height:100%;
+    object-fit:cover;
+    border: solid lightslategray;
+}
+
+form {
+    min-height: 25%;
+    margin: auto;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    max-width: 500px;
+    padding: 0;
+    font-size: 1rem;
+}
+
+form input[type=text], input[type=number], input[type=date] {
+    margin: 5px;
+    display: block;
+    border-radius: 5px;
+    min-height: 30px;
+    font-size: 1rem;
+    min-width: 250px;
+    padding-left: 10px;
+}
+form button[type="submit"] {
+    background-color: #396876;
+    min-width: 265px;
+    min-height: 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 1rem;
+}
+form button[type="submit"]:hover {
+    background-color: #034356;
+}
+select {
+    height: 35px;
+    width: 265px ;
+    border-radius: 5px;
+}
+#contatos {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#contatos iframe {
+    margin: 0;
+    padding-right: 20px;
+    min-width: 60%;
+    min-height:25%;
+    margin-bottom: 30px;
+
+}
+table {
+    margin: auto;
+    border: solid 1px lightslategray;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 2px 2px 10px;
+    height: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+table thead th {
+    background-color: #396876;
+    color: aliceblue;
+}
+table tr:nth-child(even){
+    background-color:lightgray;
+}
+table tr:hover td{
+    background-color: #39687655;
+}
+
+#footer {
+    color: aliceblue;
+    background-color: #3C6D7C;
+    margin-bottom: 0;
+    height: 8vh;
+}
