@@ -1,9 +1,6 @@
 # Trilha HTML - Dio.me
 ## Módulo 02 - HTML I - Conceitos Básicos
 
-## 📋 Deploy
-- [Pagina Online](https://stackblitz.com/edit/web-platform-btau56?embed=1&file=index.html&view=preview)
-
 ## ✨ Technology
 - HTML
 - CSS
